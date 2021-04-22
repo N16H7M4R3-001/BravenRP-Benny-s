@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Syncopate', sans-serif;
+}
+body{
+	display: flex;
+	min-height: 100vh; 
+	background: #171B1B;
+}
+header{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 200px;
+	background: url(https://img.gta5-mods.com/q95/images/benny-s-black-and-white-theme-fivem-sp/98d94e-3.PNG);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+header h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: 'Syncopate', sans-serif;
+    color: #a72929;
+}
+.calculator{
+	position: absolute;
+	right: 5%;
+	top: 35%;
+	display: grid;
+}
+.calculator .value{
+	grid-column: span 4;
+	height: 100px;
+	text-align: right;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 18px;
+	background: #252e2d;
+	color: white;
+}
+.calculator span{
+	display: grid;
+	width: 100px;
+	height: 60px;
+	color: #fff;
+	background: #252e2d;
+	place-items: center;
+	border: 1px solid rgba(0,0,0,.1);
+}
+.calculator span:active{
+    background: #a72929;
+    color: #111;
+}
+.calculator span.clear{
+	grid-column: span 2;
+	width: 100%;
+	background: #a72929;
+}
+.calculator span.plus{
+	grid-row: span 2;
+	height: 120px;
+}
+.calculator span.equal{
+	background: #03b1ff;
+}
+.infos_gtav{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	font-size: 25px;
+	color: white;
+}
+.infos_gtav h3{
+	color: #a72929;
+}
+.boutique{
+	position: absolute;
+	top: 40%;
+	left: 44%;
+}
+.boutique h3{
+	text-align: center;
+	justify-content: center;
+	color: #a72929;
+}
+.boutique p{
+	text-align: center;
+	justify-content: center;
+	color: #a72929;
+	font-size: 20px;
+}
+.recrutements{
+	margin-left: 40px;
+	margin-right: 40px;
+	position: absolute;
+	top: 35%;
+	color: #a72929;
+	font-size: 15px;
+}
+.recrutements a{
+	text-decoration: none;
+	color: #a72929;
+}
+.recrutements a:hover{
+	color: #FF0000;
+}
+.map{
+	position: absolute;
+	top: 45%;
+	left: 30%;
+}

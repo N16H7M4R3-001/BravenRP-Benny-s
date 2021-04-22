@@ -1,0 +1,85 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #171B1B;
+}
+header{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 200px;
+	background: url(https://img.gta5-mods.com/q95/images/benny-s-black-and-white-theme-fivem-sp/98d94e-3.PNG);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+header h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Syncopate', sans-serif;
+    color: #a72929;
+}
+
+.categories{
+	text-align: center;
+	justify-content: center;
+	margin-top: 450px;
+}
+.categories a{
+	text-decoration: none;
+	font-size: 50px;
+	color: #a72929;
+	font-family: 'Syncopate', sans-serif;
+	padding: 30px;
+}
+.categories a:hover{
+	color: white;
+}
+
+.infos{
+	position: absolute;
+	top: 210px;
+	left: 5%;
+	color: white;
+	font-size: 22px;
+	font-family: 'Syncopate', sans-serif;
+}
+.infos h3{
+	color: #a72929;
+}
+.infos_deux{
+	position: absolute;
+	top: 210px;
+	left: 25%;
+	color: white;
+	font-size: 22px;
+	font-family: 'Syncopate', sans-serif;
+}
+.infos_deux h3{
+	color: #a72929;
+}
+.infos_trois{
+	position: absolute;
+	top: 210px;
+	right: 25%;
+	color: white;
+	font-size: 22px;
+	font-family: 'Syncopate', sans-serif;
+}
+.infos_trois h3{
+	color: #a72929;
+}
+.infos_quatre{
+	position: absolute;
+	top: 210px;
+	right: 22px;
+	color: white;
+	font-size: 22px;
+	font-family: 'Syncopate', sans-serif;
+}
+.infos_quatre h3{
+	color: #a72929;
+}

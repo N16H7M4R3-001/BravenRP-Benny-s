@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Benny's: Customisation</title>
+	<link rel="stylesheet" type="text/css" href="css/liens.css">
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>Benny's Custom</h1>
+	</header>
+	<form class="calculator" name="calc">
+			<input type="text" class="value" name="txt" readonly="">
+			<span class="num clear" onclick="calc.txt.value =''">c</span>
+			<span class="num" onclick="document.calc.txt.value +='/'">/</span>
+			<span class="num" onclick="document.calc.txt.value +='*'">*</span>
+			<span class="num" onclick="document.calc.txt.value +='7'">7</span>
+			<span class="num" onclick="document.calc.txt.value +='8'">8</span>
+			<span class="num" onclick="document.calc.txt.value +='9'">9</span>
+			<span class="num" onclick="document.calc.txt.value +='-'">-</span>
+			<span class="num" onclick="document.calc.txt.value +='4'">4</span>
+			<span class="num" onclick="document.calc.txt.value +='5'">5</span>
+			<span class="num" onclick="document.calc.txt.value +='6'">6</span>
+			<span class="num plus" onclick="document.calc.txt.value +='+'">+</span>
+			<span class="num" onclick="document.calc.txt.value +='1'">1</span>
+			<span class="num" onclick="document.calc.txt.value +='2'">2</span>
+			<span class="num" onclick="document.calc.txt.value +='3'">3</span>
+			<span class="num" onclick="document.calc.txt.value +='0'">0</span>
+			<span class="num" onclick="document.calc.txt.value +='00'">00</span>
+			<span class="num" onclick="document.calc.txt.value +='.'">.</span>
+			<span class="num" onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>
+		</form>
+	<div class="infos_gtav">
+		<h1><u>Réparations</u></h1><br>
+		<h3><u>Réparations</u></h3><br>
+		<p>
+			- Sur place (2000$)<br>
+			- Remorquage  (2500$)<br>
+		</p>
+		<br>
+		<h3><u>Dépannage</u></h3><br>
+		<p>
+			- En ville (1500$)<br>
+			- Hors ville (2500$)<br>
+		</p>
+		<br>
+		<h3><u>Carrosserie</u></h3><br>
+		<p>
+			- Carrosserie complète (3000$)<br>
+			- Crevaison (1000$)<br>
+			- Panne (1000$)<br>
+		</p>
+		<br>
+	</div>
+</body>
+</html>
+
+</body>
+</html>
